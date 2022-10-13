@@ -165,3 +165,19 @@ link:active {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+.container {
+  width: 1600px;
+  background-color: #ffffff;
+}
+.menu {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-nav {
+  display: flex;
+  justify-content: space-between;
+}
