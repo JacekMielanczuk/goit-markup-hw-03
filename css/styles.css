@@ -28,6 +28,7 @@ link:active {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-left: 215px;
 }
 .web {
   color: var(--buttons-color);
@@ -179,4 +180,9 @@ link:active {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.section-one {
+  background-color: #2f303a;
+  padding-block: 94px;
+  height: 600px;
 }
