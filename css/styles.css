@@ -169,15 +169,14 @@ link:active {
   width: 1600px;
   background-color: #ffffff;
 }
-.menu {
-  border-bottom: 1px solid #ececec;
+.header-wrapper {
   display: flex;
-}
-.menu-list {
-  display: flex;
+  align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
-.contact-nav {
+.nav-list {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
