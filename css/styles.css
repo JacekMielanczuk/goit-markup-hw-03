@@ -169,20 +169,25 @@ link:active {
 .container {
   width: 1600px;
   background-color: #ffffff;
+  margin: 0 auto;
 }
 .header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
+  height: 80px;
 }
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 46px;
+  padding-right: 572px;
 }
-.section-one {
-  background-color: #2f303a;
-  padding-block: 94px;
-  height: 600px;
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
 }
