@@ -110,6 +110,11 @@ link:active {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--descriptions-color);
+  width: 270px;
+  height: 108px;
+background-color: #ffffff;
+text-align: center;
+
 }
 .address {
   font-weight: 400;
@@ -183,6 +188,7 @@ link:active {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
+  margin-inline: 15px;
 }
 .nav-wrapper {
   display: flex;
@@ -213,10 +219,18 @@ link:active {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+  margin-inline: 15px;
 }
 .work-wrapper {
   display: flex;
   gap: 30px;
 padding-top: 20px;
 justify-content: space-between;
+margin-inline: 15px;
+}
+.set {
+background-color: #F5F4FA;
+}
+.team-list {
+
 }
