@@ -204,3 +204,14 @@ link:active {
   align-items: center;
   text-align: center;
 }
+.section {
+  padding-block: 94px;
+}
+.strengths {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  gap: 15px;
+  
+  
+}
