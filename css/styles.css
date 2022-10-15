@@ -30,6 +30,7 @@ link:active {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-left: 215px;
+  width: 145px;
 }
 .web {
   color: var(--buttons-color);
@@ -40,6 +41,7 @@ link:active {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  width: 254px;
 }
 .contact {
   font-weight: 500;
@@ -57,6 +59,9 @@ link:active {
   line-height: 1.36;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  width: 696px;
+  
+  
 }
 .order {
   font-weight: 700;
@@ -68,6 +73,7 @@ link:active {
   background-color: var(--buttons-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  width: 200px;
 }
 .feature {
   font-weight: 700;
@@ -176,7 +182,6 @@ link:active {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
-  
 }
 .nav-wrapper {
   display: flex;
@@ -190,4 +195,12 @@ link:active {
 }
 .section-one {
   background-color: #2F303A;
+  height: 600px;
+  padding-block: 94px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
