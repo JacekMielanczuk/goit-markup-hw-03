@@ -95,6 +95,7 @@ link:active {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  text-align: center;
 }
 .name {
   font-weight: 500;
@@ -212,4 +213,10 @@ link:active {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+}
+.work-wrapper {
+  display: flex;
+  gap: 30px;
+padding-top: 20px;
+justify-content: space-between;
 }
