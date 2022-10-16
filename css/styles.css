@@ -9,7 +9,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #212121;
-
 }
 .list {
   list-style-type: none;
@@ -60,8 +59,7 @@ link:active {
   letter-spacing: 0.02em;
   color: var(--title-color);
   width: 696px;
-  
-  
+  text-align: center;
 }
 .order {
   font-weight: 700;
@@ -96,6 +94,7 @@ link:active {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-align: center;
+  padding-top: 94px;
 }
 .name {
   font-weight: 500;
@@ -112,9 +111,8 @@ link:active {
   color: var(--descriptions-color);
   width: 270px;
   height: 108px;
-background-color: #ffffff;
-text-align: center;
-
+  background-color: #ffffff;
+  text-align: center;
 }
 .address {
   font-weight: 400;
@@ -180,15 +178,19 @@ text-align: center;
   color: var(--title-color);
 }
 .container {
-  width: 1200px;
   margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.section {
+  padding-block: 94px;
 }
 .header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
-  margin-inline: 15px;
 }
 .nav-wrapper {
   display: flex;
@@ -200,37 +202,29 @@ text-align: center;
   justify-content: space-between;
   gap: 50px;
 }
-.section-one {
-  background-color: #2F303A;
+.title-wrapper {
+  background-color: #2f303a;
   height: 600px;
-  padding-block: 94px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
-.section {
-  padding-block: 94px;
-  
-}
-.strengths {
+.strengths-wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
-  margin-inline: 15px;
-}
-.work-wrapper {
-  display: flex;
   gap: 30px;
-padding-top: 20px;
-justify-content: space-between;
-margin-inline: 15px;
 }
-.set {
-background-color: #F5F4FA;
+.scope-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.team-list {
-
+.members {
+  background-color: #f5f4fa;
+}
+.team-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
