@@ -28,7 +28,6 @@ link:active {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-left: 215px;
   width: 145px;
 }
 .web {
@@ -114,6 +113,9 @@ link:active {
   height: 108px;
   background-color: #ffffff;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .address {
   font-weight: 400;
@@ -161,6 +163,9 @@ link:active {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--descriptions-color);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .mail2 {
   font-weight: 400;
@@ -262,7 +267,6 @@ link:active {
 .project-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
 }
 .item {
   flex-basis: calc((100%-60px) / 3);
