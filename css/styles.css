@@ -250,3 +250,11 @@ link:active {
   justify-content: space-between;
   flex-direction: column;
 }
+.filters-nav {
+  padding-top: 94px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
