@@ -102,6 +102,7 @@ link:active {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  text-align: center;
 }
 .team {
   font-weight: 400;
@@ -257,4 +258,12 @@ link:active {
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.item {
+  flex-basis: calc(100%-60px / 3);
 }
