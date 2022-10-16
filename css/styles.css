@@ -223,8 +223,30 @@ link:active {
 }
 .members {
   background-color: #f5f4fa;
+  height: 648px;
+}
+.margins {
+  margin: 0px 0px 0px 0px;
+}
+.no-gap {
+  display: block;
+}
+.no-padding {
+  padding-bottom: 0px;
 }
 .team-wrapper {
   display: flex;
   justify-content: space-around;
+}
+.footer-bgcolor {
+  background-color: #2f303a;
+}
+.footer-wrapper {
+  height: 252px;
+  display: flex;
+}
+.adress-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
