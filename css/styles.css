@@ -215,8 +215,10 @@ link:active {
   justify-content: space-between;
   gap: 50px;
 }
-.title-wrapper {
+.title-background {
   background-color: #2f303a;
+}
+.title-wrapper {
   height: 600px;
   display: flex;
   justify-content: center;
