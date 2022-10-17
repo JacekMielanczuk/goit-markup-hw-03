@@ -167,6 +167,9 @@ link:active {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 24px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .mail2 {
   font-weight: 400;
@@ -233,7 +236,7 @@ link:active {
   height: 648px;
 }
 .margins {
-  margin: 0px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
 }
 .no-gap {
   display: block;
@@ -271,4 +274,6 @@ link:active {
 }
 .item {
   flex-basis: calc((100%-60px) / 3);
+}
+.subs {
 }
