@@ -102,6 +102,7 @@ link:active {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-align: center;
+  padding-top: 30px;
 }
 .team {
   font-weight: 400;
