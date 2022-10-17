@@ -170,6 +170,7 @@ link:active {
   padding-left: 24px;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
+  width: 370px;
 }
 .mail2 {
   font-weight: 400;
@@ -274,6 +275,4 @@ link:active {
 }
 .item {
   flex-basis: calc((100%-60px) / 3);
-}
-.subs {
 }
