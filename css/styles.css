@@ -236,8 +236,10 @@ link:active {
   align-items: center;
   gap: 10px;
 }
-.members {
+.members-background {
   background-color: #f5f4fa;
+}
+.members {
   height: 648px;
 }
 .margins {
