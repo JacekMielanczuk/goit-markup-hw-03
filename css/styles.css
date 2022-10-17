@@ -94,6 +94,9 @@ link:active {
   color: var(--main-color);
   text-align: center;
   padding-top: 94px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .name {
   font-weight: 500;
